@@ -1,0 +1,169 @@
+/*
+	Pallet
+		Light Blue: #6385C7
+		Dark Gold:  #B77800
+*/
+
+* {
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	color: #B77800;}
+	*:before { color: #6385C7; }
+
+
+
+/* details.xml
+--------------------------------------------------*/
+
+me,
+me > gender,
+me > age,
+me > birthdate {
+	display: block }
+
+me {
+	padding: 20px 10px; }
+
+	me:before {
+		display: block;
+		margin-bottom: 5px;
+		font-size: 120%;
+		font-weight: 700;
+		text-decoration: underline;
+		content: "About me"; }
+
+
+	me > fname:before { content: "Name: "; }
+	me > gender:before { content: "Gender: "; }
+	me > age:before { content: "Age: "; }
+	me > birthdate:before { content: "Birth Date: "; }
+
+
+/* courses.xml
+--------------------------------------------------*/
+
+courses,
+course,
+course > name,
+course > prof,
+course > info {
+	display: block; }
+
+courses {
+	padding: 20px 10px; }
+
+	courses:before {
+		display: block;
+		margin-bottom: 5px;
+		font-weight: 700;
+		text-decoration: underline;
+		content: "Courses Taken"; }
+
+course { margin-bottom: 10px; }
+
+	course > name:before { content: "Course Name: "; }
+	course > prof:before { content: "Professor: "; }
+	course > info:before { content: "More Information: "; }
+
+
+/* future.xml
+--------------------------------------------------*/
+
+future,
+major,
+major > name,
+major > info,
+major > outcomes,
+major > prereqs,
+careers,
+career,
+career > name,
+career > reqs,
+career > info,
+career > salary,
+techs,
+tech,
+tech > name,
+tech > type,
+tech > info {
+	display: block; }
+
+major,
+careers,
+techs {
+	padding: 20px 10px; }
+
+	major:before,
+	careers:before,
+	techs:before {
+		display: block;
+		margin-bottom: 5px;
+		font-weight: 700;
+		text-decoration: underline; }
+
+
+	/* Major Styles */
+
+	major:before { content: "My Current Major"; }
+		major > name:before { content: "Major Name: "; }
+
+		major > info:before,
+		major > outcomes:before,
+		major > prereqs:before {
+			display: block;
+			margin-top: 8px;
+			font-weight: 700; }
+
+		major > info { margin-left: 20px; }
+		major > info:before {
+			margin-left: -20px;
+			content: "Information"; }
+
+		major > outcomes:before { content: "Learning Outcomes"; }
+		major > prereqs:before { content: "Prerequisites"; }
+		major > outcomes > outcome,
+		major > prereqs > prereq {
+			margin-left: 30px;
+			display: list-item;
+			list-style-type: circle; }
+
+
+	/* Careers Styles */
+	
+	careers:before { content: "Possible Career Opportunities"; }
+	career { margin-top: 8px; }
+
+		career > name {
+			font-weight: 700;
+			color: #6385C7; }
+		career > reqs:before { content: "Requirements: "; }
+		career > info:before { content: "Information: "; }
+		career > salary:before { content: "Average Pay: "; }
+
+
+	/* Technologies Styles */
+	techs:before { content: "Technologies I Have Used"; }
+	tech { margin-top: 8px; }
+	tech > name {
+		font-weight: 700;
+		color: #6385C7; }
+	tech > type:before { content: "Type: "; }
+	tech > info { margin-left: 20px; }
+	tech > info:before { 
+		display: block;
+		margin-left: -20px;
+		content: "Information: "; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

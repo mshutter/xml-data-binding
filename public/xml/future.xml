@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles.css"?>
+<future>
+	<major>
+		<name>Information Technology - Web Development</name>
+		<info>
+			<![CDATA[
+			The Bachelor of Technology degree in information technology: web development at Alfred State is designed to prepare graduates to enter the work force as IT professionals with a special emphasis in Web development and applications. Web publishing, programming, and Web server administration comprise the upper-level of courses. Additionally, the Web is integrated across the entire program beginning with the very first course. Through core courses students are given a general foundation in programming, database administration, networking, and microcomputer systems. Additional upper-level courses in oral and written communication, management, and business are provided. A semester-long internship is included.]]>
+		</info>
+		<outcomes>
+			<outcome>Produce dynamically functional software with Web development and scripting languages.</outcome>
+			<outcome>Perform full life cycle of Web software development.</outcome>
+			<outcome>Create and use a database with appropriate Web design principles.</outcome>
+			<outcome>Produce functional Web applications using Web composing software.</outcome>
+			<outcome>Analyze and create interface design.</outcome>
+			<outcome>Install, configure, and troubleshoot basic hardware.</outcome>
+			<outcome>Identify and utilize business principles and problem solving techniques.</outcome>
+			<outcome>Demonstrate and use managerial principles of business.</outcome>
+			<outcome>Demonstrate knowledge of multiple areas within the liberal arts arena.</outcome>
+			<outcome>Apply accumulated knowledge and skills in an actual industry environment.</outcome>	
+		</outcomes>
+		<prereqs>
+			<prereq>Algebra</prereq>
+			<prereq>Geometry</prereq>
+			<prereq>Algebra 2/Trigonometry</prereq>
+			<prereq>ACT scores with a recommended combined SAT score of 1,000 (critical reading and math) or a composite ACT score of 21</prereq>
+		</prereqs>
+	</major>
+
+	<careers>
+		<career>
+			<name>Web Developer</name>
+			<reqs>
+				<![CDATA[Proficiency in programming languages such as Java, VBscript and C++. Well versed in rational databases.]]>
+			</reqs>
+			<info>
+				<![CDATA[A Web developer is a type of software engineer. A Web developer's job is to create applications that run specifically on the Internet. ]]>
+			</info>
+			<salary>$62,500</salary>
+		</career>
+		<career>
+			<name>Web Designer</name>
+			<reqs>
+				<![CDATA[Knowledge of web development languages, technologies and techniques. Substantial aritstic ability and familiarity with the application of concepts of human-computer interaction. Knowledge of optimizing web page functionality and search-engine optimization.]]>
+			</reqs>
+			<info>
+				<![CDATA[A Web designer creates the actual Web pages. They should have some artistic ability. They are responsible for not only how a page looks but also its functionality and accessibility.]]>
+			</info>
+			<salary>$43,435</salary>
+		</career>
+		<career>
+			<name>Web Producer</name>
+			<reqs>
+				<![CDATA[Must be familiar with all aspects of the web development process, from backend to design. May require skillset that will help the employer establish a brand and increase web traffic to site.]]>
+			</reqs>
+			<info>
+				<![CDATA[A Web producer's job is more encompassing than a Web designer or developer. They are responsible for all aspects of the website. They may be involved in producing content as well as having a hand in the technical side.]]>
+			</info>
+			<salary>$51,709</salary>
+		</career>
+	</careers>
+	<techs>
+		<tech>
+			<name>Jade &amp; Sass</name>
+			<type>Preprocessing Languages</type>
+			<info>
+				<![CDATA[HTML and CSS preprocessing languages make it easy to develop web pages by providing features that make the languages more flexible and less redundant. Preprocessors are designed to speed up workflow and write/edit code that is easier to understand.]]>
+			</info>
+		</tech>
+
+		<tech>
+			<name>Node JS</name>
+			<type>Javascript Framework</type>
+			<info>
+				<![CDATA[Node.js is an open source, cross-platform runtime environment for server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, Linux, FreeBSD, and IBM i.]]>
+			</info>
+		</tech>
+	
+		<tech>
+			<name>PHP</name>
+			<type>Server-Side Scripting Language</type>
+			<info>
+				<![CDATA[PHP is a popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.]]>
+			</info>
+		</tech>
+
+		<tech>
+			<name>Sublime Text 2</name>
+			<type>Text Editor</type>
+			<info>
+				<![CDATA[Sublime Text is a cross-platform text and source code editor, with a Python application programming interface (API). Its functionality is extendable with plugins.]]>
+			</info>
+		</tech>
+	</techs>
+</future>

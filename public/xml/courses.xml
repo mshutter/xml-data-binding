@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="styles.css"?>
+
+<courses>
+	<course id="1">
+		<name>Finger Painting</name>
+		<prof>Buttkiss</prof>
+		<info>I got to fingerpaint many in this class.</info>
+	</course>
+
+	<course id="2">
+		<name>Visual Programming</name>
+		<prof>Burke</prof>
+		<info>Programming basic windows application using C#.</info>
+	</course>
+
+	<course id="3">
+		<name>Introduction to Web Page Development</name>
+		<prof>Enke</prof>
+		<info>Basic introduction to developing web pages using HTML, CSS and JavaScript.</info>
+	</course>
+
+	<course id="4">
+		<name>Web Programming I</name>
+		<prof>Enke</prof>
+		<info>I was programming on the web.</info>
+	</course>
+
+	<course id="5">
+		<name>Freshman Comp</name>
+		<prof>Don't Remember</prof>
+		<info>Basic writing/introduction to literature.</info>
+	</course>
+
+	<course id="6">
+		<name>Precalculus</name>
+		<prof>Cala</prof>
+		<info>Introduction to precalculus things.</info>
+	</course>
+
+</courses>
