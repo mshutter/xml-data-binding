@@ -1,0 +1,113 @@
+body {
+	background-color: $light-gray;
+	margin: 0; 
+}
+
+h2 {
+	background-color: $blue;
+	color: white;
+	padding: 15px 0;
+}
+h3 {
+	padding-left: $gutter;
+	font-size: 1.2em;
+}
+
+.clearfix {
+	@include clearfix;
+}
+
+table {
+	margin: 0;
+}
+
+.header,
+.container,
+.footer {
+	@include outer-container;
+	width: 960px;
+}
+
+.header {
+	height: 60px;
+	top: 0;
+	background-color: $medium-gray;
+	
+	h1 {
+		font-size: 25px;
+		padding-left: $gutter;
+		margin-bottom: 0;
+		@include span-columns(8);
+		line-height: 60px;
+	}
+	> div {
+		padding-top: 4px;
+		@include span-columns(4);
+	}
+}
+
+.nav {
+	@include column-span(12);
+	
+	.nav-element {
+		display: inline-block;
+		padding: 5px 10px;
+		@include column-span(2);
+		
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.container {
+	background-color: white;
+	overflow: auto
+}
+
+.content {
+	#info {
+		p {
+			@include span-columns(8);
+			@include shift(1);
+		}
+	}
+
+	#outcomes {
+		@include span-columns(8);
+		@include shift(1);
+		
+		
+		li {
+			list-style-type: circle;
+			margin-bottom:7px;
+		}
+	}
+
+	#future-tables {
+		@include fill-parent;
+		margin-bottom: 50px;
+		
+		table, img {
+			display: none;
+		}
+	}
+}
+
+.left {
+	background-color: $blue; 
+	@include span-columns(3);
+	padding: $gutter;
+	color: white;
+}
+
+#courses {
+	@include span-columns(9);
+	@include omega();
+	float: right;
+}
+
+.footer {
+	background-color: $dark-gray; 
+	@include outer-container;
+}
